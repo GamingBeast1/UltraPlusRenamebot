@@ -1,7 +1,7 @@
-# Copyright (C) 2023 DX_MODS
+# Copyright (C) 2023 Pathan_botz
 #Licensed under the  AGPL-3.0 License;
 #you may not use this file except in compliance with the License.
-#Author ZIYAN
+#Author Arshlan
 from datetime import datetime
 from pytz import timezone
 from pyrogram import Client, __version__
