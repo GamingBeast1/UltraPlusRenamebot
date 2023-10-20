@@ -82,7 +82,7 @@ async def cb_handler(client, query: CallbackQuery):
                 #⚠️ don't change source code & source link ⚠️ #
                 InlineKeyboardButton("🔥 Oᴡɴᴇʀ 🔥", url="https://t.me/Flipkartlootzs")
                 ],[
-                InlineKeyboardButton("⚡ Mᴏʀᴇ Bᴏᴛ's ⚡", url="https://github.com/DX-MODS/BIXBY-RENAME-BOT")
+                InlineKeyboardButton("⚡ Mᴏʀᴇ Bᴏᴛ's ⚡", url="https://t.me/pathan_botz/182")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
