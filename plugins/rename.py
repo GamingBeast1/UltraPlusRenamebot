@@ -79,7 +79,7 @@ async def doc(bot, update):
 
     ms = await update.message.edit("Tʀyɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅɪɴɢ....")    
     try:
-     	path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram,progress_args=("ɪʟʟᴇɢᴀʟ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ....", ms, time.time()))                    
+     	path = await bot.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram,progress_args=(" Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ....", ms, time.time()))                    
     except Exception as e:
      	return await ms.edit(e)
      	     
