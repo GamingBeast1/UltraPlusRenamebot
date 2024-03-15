@@ -9,19 +9,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "26058820")
+    API_HASH  = os.environ.get("API_HASH", "cf34db4ed69493d377a2516056711cb6")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6910550441:AAHc1UaULbAUD-iUMh4HpAaCzY8MBt6bdn4") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","Dxbotz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Order:order@cluster0.aitjsft.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/72b80c41518846d8bc7e7.jpg https://telegra.ph/file/0c987464eaee927e2d3df.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5683891175').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1001965248013") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
 
     # wes response configuration     
