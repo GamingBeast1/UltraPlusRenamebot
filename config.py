@@ -14,7 +14,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6910550441:AAHc1UaULbAUD-iUMh4HpAaCzY8MBt6bdn4") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Dxbotz")     
+    DB_NAME = os.environ.get("DB_NAME","cluster0")     
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://Order:order@cluster0.aitjsft.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
