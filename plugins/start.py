@@ -17,8 +17,8 @@ async def start(client, message):
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
         ],[
-        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/pathan_botz'),
-        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/back_up_pathan')
+        InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/galaxy_bots1'),
+        InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Ek4mpreetsingh')
         ],[
         InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
@@ -39,8 +39,8 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup([[
                 InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
                 ],[
-                InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/pathan_botz'),
-                InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/back_up_pathan')
+                InlineKeyboardButton('📯 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/galaxy_bots1'),
+                InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/ek4mpreetsingh')
                 ],[
                 InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
@@ -52,9 +52,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("🔥 Oᴡɴᴇʀ 🔥", url="https://t.me/Flipkartlootzs")
+                InlineKeyboardButton("ʀᴇᴘᴏʀᴛ ᴀ ᴘʀᴏʙʟᴇᴍ❓", url="https://t.me/Ek4mpreetsingh")
                 ],[
-                InlineKeyboardButton("⚡ Mᴏʀᴇ Bᴏᴛ's ⚡", url='https://t.me/pathan_botz/182')
+                InlineKeyboardButton("⚡ Mᴏʀᴇ Bᴏᴛ's ⚡", url="https://t.me/Galaxy_Bots1/3")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
@@ -66,9 +66,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("🔥 Oᴡɴᴇʀ 🔥", url="https://t.me/Flipkartlootzs")
+                InlineKeyboardButton("ʀᴇᴘᴏʀᴛ ᴀ ᴘʀᴏʙʟᴇᴍ❓", url="https://t.me/Ek4mpreetsingh")
                 ],[
-                InlineKeyboardButton("⚡ Mᴏʀᴇ Bᴏᴛ's ⚡", url="https://t.me/pathan_botz/182")
+                InlineKeyboardButton("⚡ Mᴏʀᴇ Bᴏᴛ's ⚡", url="https://t.me/Galaxy_Bots1/3")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
@@ -80,9 +80,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("🔥 Oᴡɴᴇʀ 🔥", url="https://t.me/Flipkartlootzs")
+                InlineKeyboardButton("ʀᴇᴘᴏʀᴛ ᴀ ᴘʀᴏʙʟᴇᴍ❓", url="https://t.me/Ek4mpreetsingh")
                 ],[
-                InlineKeyboardButton("⚡ Mᴏʀᴇ Bᴏᴛ's ⚡", url="https://t.me/pathan_botz/182")
+                InlineKeyboardButton("⚡ Mᴏʀᴇ Bᴏᴛ's ⚡", url="https://t.me/Galaxy_Bots1/3")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
