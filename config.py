@@ -9,8 +9,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "26058820")
-    API_HASH  = os.environ.get("API_HASH", "cf34db4ed69493d377a2516056711cb6")
+    API_ID    = os.environ.get("API_ID", "25705219")
+    API_HASH  = os.environ.get("API_HASH", "6590905e28c61bca1ad5e83de9853cf8")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6910550441:AAHc1UaULbAUD-iUMh4HpAaCzY8MBt6bdn4") 
    
     # database config
@@ -19,10 +19,10 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/72b80c41518846d8bc7e7.jpg https://telegra.ph/file/0c987464eaee927e2d3df.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5683891175').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1001965248013") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
+    START_PIC   = os.environ.get("START_PIC", "https://te.legra.ph/file/d62e727f0ede884b44caf.jpg https://te.legra.ph/file/99d9dd975ea39785382ed.jpg https://te.legra.ph/file/3bd0d683fb02b9d3db95e.jpg https://te.legra.ph/file/e18b282c00595a5e85e1c.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5022283560').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002143389433") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002087487845"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
@@ -32,21 +32,17 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """<b>Hᴀɪ {} 👋,
-Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
-Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ
-Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ & Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ
-Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Flipkartlootzs</b>"""
+    START_TXT = """<b>Hɪ {} 👋,
+➻ Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ ɢᴀʟᴀxʏ Rᴇɴᴀᴍᴇ Bᴏᴛ
+☆ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="Ek4mpreetsingh">Eᴋᴀᴍᴘʀᴇᴇᴛ Sɪɴɢʜ</a></b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/pathan_botz>𝙿𝙰𝚃𝙷𝙰𝙽_𝙱𝙾𝚃𝚉</a> 
-├👨‍💻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙴𝚁 : <a href=https://t.me/Flipkartlootzs>𝙿𝙰𝚃𝙷𝙰𝙽</a>
-├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
-├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
+├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀ : <a href=https://t.me/ek4mpreetsingh>Eᴋᴀᴍᴘʀᴇᴇᴛ Sɪɴɢʜ</a> 
+├📕 Lɪʙʀᴀʀy : <a href=https://pyrogram.org>ᴘʏʀᴏɢʀᴀᴍ</a>
+├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pʏᴛʜᴏɴ 3</a>
 ├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
-├📊 Bᴜɪʟᴅ Vᴇʀꜱɪᴏɴ: <a href=https://t.me/Pathans_cinema>𝙿𝙰𝚃𝙷𝙰𝙽</a></b>     
+├📑 Sᴇʀᴠᴇʀ: <a href=https://render.com>ʀᴇɴᴅᴇʀ</a></b>     
 ╰───────────────⍟ """
 
     HELP_TXT = """
@@ -64,13 +60,12 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 ⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}
 ✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 <b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ \nAɴᴅ Sᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/back_up_pathan>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
+ℹ️ ᴄᴏɴᴛᴀᴄᴛ ʜᴇᴛᴇ ғᴏʀ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ :- <a href=https://t.me/ek4mpreetsingh>Eᴋᴀᴍᴘʀᴇᴇᴛ Sɪɴɢʜ</a>
 """
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ 
     DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
-» Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs : <a href=https://t.me/Movies_vala_Family>MR.MOVIE_VALA</a>
-» Sᴜᴘᴘᴏʀᴛ Us : <a href=https://t.me/back_up_pathan>Pᴀᴛʜᴀɴ_Bᴏᴛᴢ</a>"""
+ <a href=https://t.me/ek4mpreetsingh>Eᴋᴀᴍᴘʀᴇᴇᴛ Sɪɴɢʜ</a>"""
 
 
     PROGRESS_BAR = """<b>\n
