@@ -39,9 +39,5 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 """
 
 #⚠️ don't remove our credits 🙏😢😢
-    DEV_TXT = """
-<b><u>Special Thanks & Developers</b></u> 
-
-» Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs: <a href=https://t.me/Movies_vala_Family> Mr.Moviewala 𝐑𝐄𝐍𝐀𝐌𝐄 𝐁𝐎𝐓</a>
-» Sᴜᴘᴘᴏʀᴛ Us : <a href=https://t.me/back_up_pathan>Pathan</a>
-"""
+    DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
+ <a href=https://t.me/ek4mpreetsingh>Eᴋᴀᴍᴘʀᴇᴇᴛ Sɪɴɢʜ</a>"""
