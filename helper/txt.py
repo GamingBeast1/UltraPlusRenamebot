@@ -12,17 +12,14 @@ class mr(object):
 ┣⪼ ⏱️ : {4}
 ╰━━━━━━━━━━━━━━━➣ """
 
-    ABOUT_TXT = """
-╭───────────⍟
-├🤖 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
-├👑 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂 : <a href=https://t.me/Flipkartlootzs>Pᴀᴛʜᴀɴ</a> 
-├👨‍💻 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 : <a href=https://t.me/pathan_botz>Pᴀᴛʜᴀɴ Bᴏᴛᴢ</a>
-├📕 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href=https://github.com/pyrogram>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
-├✏️ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <a href=https://www.python.org>𝙿𝚈𝚃𝙷𝙾𝙽 3</a>
-├💾 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : <a href=https://cloud.mongodb.com>𝙼𝙾𝙽𝙶𝙾𝙳𝙱</a>
-├📊 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚄𝚂 : v2.1.90              
-╰───────────────⍟
-                                """
+    ABOUT_TXT = """<b>╭───────────⍟
+├🤖 ᴍy ɴᴀᴍᴇ : {}
+├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀ : <a href=https://t.me/ek4mpreetsingh>Eᴋᴀᴍᴘʀᴇᴇᴛ Sɪɴɢʜ</a> 
+├📕 Lɪʙʀᴀʀy : <a href=https://pyrogram.org>ᴘʏʀᴏɢʀᴀᴍ</a>
+├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pʏᴛʜᴏɴ 3</a>
+├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
+├📑 Sᴇʀᴠᴇʀ: <a href=https://render.com>ʀᴇɴᴅᴇʀ</a></b>     
+╰───────────────⍟ """
     HELP_TXT = """
 🌌 <b><u>HOW TO SET THUMBNILE</u></b>
   
